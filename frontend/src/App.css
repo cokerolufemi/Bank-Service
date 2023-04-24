@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table > thead {
+  border: 3px solid green;
+  height: 7vh;
+  width: 100%;
+  color: white;
+}
+
+
+.main {
+  margin: 20px;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(247, 244, 244, 0.326);
+}
+
+.value {
+  font-family: monospace;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.data {
+  border: 2px solid seagreen;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addBankBtn {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: 10px solid green;
+}
+
+.login-container {
+  min-width: 800px;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px 5px rgba(247, 244, 244, 0.326);
+  margin: 100px 0 0;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+}
+.loginbtn{
+  background-color: dodgerblue;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+}
+.registerbtn{
+  background-color: #075e79;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+  text-decoration: none;
+  margin-left: 8px;
+
+}
+.register-container {
+  min-width: 800px;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px 5px rgba(247, 244, 244, 0.326);
+  margin: 100px 500px 0;
+}
